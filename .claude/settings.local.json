@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(pip install:*)",
+      "Bash(python test_setup.py:*)",
+      "Bash(python test_brain.py:*)",
+      "Bash(python test_brain_auto.py:*)",
+      "Bash(python create_test_audio.py:*)",
+      "Bash(python test_speech.py:*)",
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(git init)",
+      "WebSearch",
+      "Bash(git add:*)"
+    ]
+  }
+}
